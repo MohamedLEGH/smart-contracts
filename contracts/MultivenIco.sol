@@ -57,7 +57,7 @@ contract MultivenIco is Owned, PelikanIco {
     uint round2supply,
     uint round3Supply,
     uint round4Supply
-  ) {
+  ) public {
     kycRegistry = KycRegistryInterface(kycRegistryAddress);
     multicoin = ERC20Interface(multicoinAddress);
     multivenWallet = multivenWalletAddress;
