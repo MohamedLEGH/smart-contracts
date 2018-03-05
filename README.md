@@ -2,9 +2,7 @@
 
 # Multiven Smart-Contracts
 
-[![Travis integration](https://travis-ci.org/Multiven-Group-BV/smart-contracts.svg?branch=master)](https://travis-ci.org/Multiven-Group-BV/smart-contracts)
-
-[![Codecov](https://codecov.io/gh/Multiven-Group-BV/smart-contracts/branch/master/graph/badge.svg)](https://codecov.io/gh/Multiven-Group-BV/smart-contracts/)
+[![Travis integration](https://travis-ci.org/Multiven-Group-BV/smart-contracts.svg?branch=master)](https://travis-ci.org/Multiven-Group-BV/smart-contracts) [![Codecov](https://codecov.io/gh/Multiven-Group-BV/smart-contracts/branch/master/graph/badge.svg)](https://codecov.io/gh/Multiven-Group-BV/smart-contracts/)
 
 ## Multicoin Contract
 
