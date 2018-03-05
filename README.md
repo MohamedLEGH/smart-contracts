@@ -2,6 +2,8 @@
 
 # Multiven Smart-Contracts
 
+![Travis integration](https://travis-ci.org/Multiven-Group-BV/smart-contracts.svg?branch=master)
+
 ## Multicoin Contract
 
 The multicoin contract is a standard ERC20 token with some added behavior to manage the supply of tokens.
