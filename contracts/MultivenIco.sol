@@ -24,6 +24,8 @@ contract MultivenIco is Owned, PelikanIco {
   uint8 public currentIcoRound = 0;
   uint public tokenPrice = 0.01 ether;
 
+  uint public totalEtherRaised = 0;
+
   ERC20Interface multicoin;
   KycRegistryInterface kycRegistry;
   address public multivenWallet;
@@ -117,6 +119,9 @@ contract MultivenIco is Owned, PelikanIco {
     // Checks if this supply can be given
     require(newSupply <= icoRounds[currentIcoRound].supplyAllowed);
     icoRounds[currentIcoRound].supplyDistributed = newSupply;
+
+    // Add the received value to the total received
+    totalEtherRaised += msg.value;
 
     // Transfer the value to the holder wallet
     multivenWallet.transfer(msg.value);
