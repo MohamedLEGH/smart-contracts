@@ -17,7 +17,7 @@ The multicoin contract is a standard ERC20 token with some added behavior to man
 
 ## The Multiven ICO Contract
 
-The ICO is made of 4 rounds, and the contract is here to enforce the token distribution while the rounds are going. You can find more details about the ICO itself [in the whitepaper](https://multiven.io/wp-content/uploads/2018/02/multiven_WhitePaper-15Feb2018.pdf).
+The public ICO pre-sale is made of 3 rounds, and the contract is here to enforce the token distribution while the rounds are going. You can find more details about the ICO itself [in the whitepaper](https://www.multiven.io/multiven.pdf).
 
 ## Playing with the contract
 
